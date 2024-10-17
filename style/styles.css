@@ -2,3 +2,35 @@ h1{
     color: red;
 }
 
+
+.indexBody
+{
+    background-color: black;
+}
+
+.indexTittle
+{
+    font-size: 90px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.indexText
+{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.indexButton
+{
+    margin-right: 725px;
+    margin-left: 725px;
+   background-color: red;
+    font-size: 40px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
