@@ -82,3 +82,43 @@ h1{
     margin-left: 600px;
     margin-right: 600px;
 }
+
+.choiceBackground
+{
+    background-image: url(../assets/pictures/EMptyStreet.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.choiceTextBox
+{
+    margin-top: 660px;
+    font-family: SpookyMonster;
+    color: black;
+    background-color: orange;
+    font-size: 40px;
+    padding: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+#containerChoices
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-item
+{
+    font-family: SpookyMonster;
+    font-size: 40px;
+    background-color: orange;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+     color: black;
+    text-align: center;
+}
