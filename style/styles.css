@@ -103,10 +103,15 @@ h1{
 
 
 .body1{
-    width:800px;
+    /* width:800px; */
     text-align: center;
     font-size: 40px;
+    display:flex;
+    justify-content: center;
 }
+
+
+
 .choiceTextBox
 {
     margin-top: 660px;
