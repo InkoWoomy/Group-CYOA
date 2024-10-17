@@ -41,3 +41,20 @@ h1{
     display: flex;
     justify-content: center;
 }
+
+.startTittle
+{
+    font-family: SpookyMonster;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+}
+
+.startBackground
+{
+    background-image: url(../assets/pictures/StartPageBackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
