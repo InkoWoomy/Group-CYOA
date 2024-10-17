@@ -82,3 +82,20 @@ h1{
     margin-left: 600px;
     margin-right: 600px;
 }
+
+
+
+
+
+
+body{
+    background-image: url(/page/assets/halloween-decorations-neighborhood_118124-43464.jpg.avif);
+    background-color: darkslategray;
+    background-size: 1500px;
+}
+
+@font-face {
+    font-family: SpookyMonster;
+    src: url(../ass);
+}
+
