@@ -126,6 +126,38 @@ h1{
     
 }
 
+.GMEndTextBox
+{
+    margin-top: 480px;
+    font-family: SpookyMonster;
+    color: black;
+    background-color: orange;
+    font-size: 30px;
+    padding: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+.GM1Background
+{
+    background-image: url(../assets/pictures/haunted-mansion-holiday-front-entrance.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.GM2Background
+{
+    background-image: url(../assets/pictures/skeleton-ambulance.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
 #containerChoices
 {
     display: flex;
