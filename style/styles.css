@@ -1,12 +1,13 @@
 
 @font-face {
     font-family: SpookyMonster;
-    src: url(../assets/Spooky\ Monster.otf);
+    src: url(../assets/SpookyMonster.otf);
 }
 
 
 h1{
     color: red;
+    font-family: 'SpookyMonster';
 }
 
 
