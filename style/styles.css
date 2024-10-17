@@ -88,14 +88,17 @@ h1{
 
 
 
-body{
+.mybackground{
     background-image: url(/page/assets/halloween-decorations-neighborhood_118124-43464.jpg.avif);
-    background-color: darkslategray;
-    background-size: 1500px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
 }
 
-@font-face {
-    font-family: SpookyMonster;
-    src: url(../ass);
+
+.body1{
+    width:500px;
+    text-align: center;
+    font-size: 20px;
 }
 
