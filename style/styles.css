@@ -130,12 +130,13 @@ h1{
 
 .choiceTextBox
 {
-    margin-top: 660px;
     font-family: SpookyMonster;
     color: black;
     background-color: orange;
     font-size: 40px;
     padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-width: 3px;
     border-style: solid;
     border-color: black;
@@ -174,10 +175,20 @@ h1{
 
 }
 
+.creepyBackground
+{
+    background-image: url(../assets/pictures/creepyRoute.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
 #containerChoices
 {
     display: flex;
     justify-content: space-evenly;
+   
 }
 
 .flex-item
@@ -188,6 +199,25 @@ h1{
     border-width: 3px;
     border-style: solid;
     border-color: black;
-     color: black;
+    color: black;
     text-align: center;
+}
+
+.creepySubtitle
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+.creepyChoiceButtons
+{
+    padding: 10px;
+    background-color: rgb(218, 73, 218);
+}
+
+/*Instead of using padding-top: 660px;, use this to set your containers on the bottom portion of the page*/
+#footer
+{
+    position: fixed;
+    bottom: 100px;
 }
