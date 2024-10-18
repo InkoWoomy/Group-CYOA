@@ -1,5 +1,6 @@
-body {
-        display: flex;
+.centerUI
+{
+    display: flex;
     justify-content: center;
 }
 
