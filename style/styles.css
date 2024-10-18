@@ -99,6 +99,20 @@ h1{
 
 }
 
+.houseBackground{
+    background-image: url(../assets/pictures/wornOutHouse.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.deadBackground
+{
+    background-image: url(../assets/pictures/dead.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 
 
 .mybackground{
@@ -117,7 +131,6 @@ h1{
 
 
 .body1{
-    /* width:800px; */
     font-family: 'SpookyMonster';
     text-align: center;
     font-size: 40px;
@@ -238,8 +251,25 @@ h1{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-
 }
+
+.mansionBackground
+{
+    background-image: url(../assets/pictures/eerieMansion.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.candyBackground
+{
+    background-image: url(../assets/pictures/candy.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
 
 .flex-item
 {
@@ -258,6 +288,11 @@ h1{
 {
     text-align: center;
     font-size: 40px;
+}
+
+.goodSubtitle
+{
+    color: orange;
 }
 
 .creepyChoiceButtons
