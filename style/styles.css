@@ -51,6 +51,8 @@ h1{
     display: flex;
     justify-content: center;
     font-size: 120px;
+    text-shadow: 15px 0px 0px black;
+    
    
 }
 
@@ -135,6 +137,7 @@ h1{
     background-color: orange;
     font-size: 40px;
     padding: 10px;
+    margin-top: 660px;
     margin-left: 20px;
     margin-right: 20px;
     border-width: 3px;
@@ -151,6 +154,8 @@ h1{
     background-color: orange;
     font-size: 30px;
     padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-width: 3px;
     border-style: solid;
     border-color: black;
@@ -174,6 +179,43 @@ h1{
     background-size: 100% 100%;
 
 }
+
+
+
+.story4HouseBackground
+{
+    background-image: url(../assets/pictures/4StoryHouse.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+.story4HouseEndBackground
+{
+    background-image: url(../assets/pictures/FullCandyBags.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.Story4endTextBox
+{
+    margin-top: 480px;
+    font-family: SpookyMonster;
+    color: black;
+    background-color: orange;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+
 
 .creepyBackground
 {
@@ -216,6 +258,8 @@ h1{
 }
 
 /*Instead of using padding-top: 660px;, use this to set your containers on the bottom portion of the page*/
+
+/*Tried this and didn't work, but i see what it's trying to do, please remind me when we are on person so we can test it better - Juan*/
 #footer
 {
     position: fixed;
