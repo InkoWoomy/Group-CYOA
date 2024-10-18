@@ -129,6 +129,13 @@ h1{
     background-size: 100% 100%;
 }
 
+.newbackground{
+    background-image: url(/assets/Halloween-house-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
 
 .body1{
     font-family: 'SpookyMonster';
