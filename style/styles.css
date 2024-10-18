@@ -97,19 +97,28 @@ h1{
 
 
 .mybackground{
-    background-image: url(/page/assets/halloween-decorations-neighborhood_118124-43464.jpg.avif);
+    background-image: url(/assets/halloween-decorations-neighborhood_118124-43464.jpg.avif);
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: 100% 100%;
 }
 
+.background{
+    background-image: url(/assets/Early-evening-crowds-line-up-at-Marci-and-Joe-Emersons-house.-Photo-courtesy-of-Marci-Emerson.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
 
 .body1{
     /* width:800px; */
+    font-family: 'SpookyMonster';
     text-align: center;
     font-size: 40px;
     display:flex;
     justify-content: center;
+    
 }
 .button-container {
     display: flex;
@@ -118,6 +127,7 @@ h1{
     margin-top: 20px; 
 }
 .button-container a {
+    font-family: 'SpookyMonster';
     display: block;
     margin: 10px 0; 
     padding: 10px 20px;
