@@ -281,3 +281,9 @@ h1{
     position: fixed;
     bottom: 60px;
 }
+
+.buttonPadding
+{
+    padding: 10px;
+    background-color: green;
+}
