@@ -1,3 +1,7 @@
+body {
+        display: flex;
+    justify-content: center;
+}
 
 @font-face {
     font-family: SpookyMonster;
@@ -131,19 +135,17 @@ h1{
 
 
 .choiceTextBox
-{
+{        
+    width: 80%;
     font-family: SpookyMonster;
     color: black;
     background-color: orange;
     font-size: 40px;
-    padding: 10px;
-    margin-top: 660px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-width: 3px;
     border-style: solid;
     border-color: black;
-    
 }
 
 .GMEndTextBox
@@ -226,15 +228,9 @@ h1{
 
 }
 
-#containerChoices
-{
-    display: flex;
-    justify-content: space-evenly;
-   
-}
-
 .flex-item
 {
+    justify-content: center;
     font-family: SpookyMonster;
     font-size: 40px;
     background-color: orange;
@@ -253,15 +249,24 @@ h1{
 
 .creepyChoiceButtons
 {
-    padding: 10px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
     background-color: rgb(218, 73, 218);
 }
 
 /*Instead of using padding-top: 660px;, use this to set your containers on the bottom portion of the page*/
 
 /*Tried this and didn't work, but i see what it's trying to do, please remind me when we are on person so we can test it better - Juan*/
-#footer
+.footer
 {
     position: fixed;
-    bottom: 100px;
+    bottom: 150px;
+}
+
+.footerButtons
+{
+    position: fixed;
+    bottom: 60px;
 }
